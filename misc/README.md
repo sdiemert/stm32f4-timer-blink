@@ -1,0 +1,1 @@
+This directory contains a script that is (basically) the same set of commands executed by the CubeMX IDE for compiling a project. This is kept for reference only, it will not work anymore because the paths in the file have changed.
