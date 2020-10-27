@@ -29,12 +29,7 @@ HAL_INC=$(LIB)/STM32F4xx_HAL_Driver/Inc
 # All new files added to the project must
 # be listed here
 # ########################################
-SRCS = $(SRC_DIR)/main.c \
-	   $(SRC_DIR)/stm32f4xx_it.c \
-	   $(SRC_DIR)/stm32f4xx_hal_msp.c \
-	   $(SRC_DIR)/syscalls.c \
-	   $(SRC_DIR)/sysmem.c \
-	   $(SRC_DIR)/system_stm32f4xx.c
+SRCS = $(shell find $(SRC_DIR) -name '*.c')
 
 ASM_SRCS = $(DEV_DIR)/startup_stm32f401retx.s
 
