@@ -14,10 +14,10 @@ See my earlier project for details on installing the required toolchain: [STM32F
 
 ## Usage
 
-To build this code run: `make`.
+To build this code run: `make`
 
-To clean the project run: `make clean`.
+To clean the project run: `make clean`
 
-To upload/flash the resulting executable to the microcontroller run: `make flash`. 
+To upload/flash the resulting executable to the microcontroller run: `make flash` 
 
-Its easy to combine them all into one command: `make clean all flash`.
+Its easy to combine them all into one command: `make clean all flash`
